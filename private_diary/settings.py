@@ -1,4 +1,5 @@
 from .settings_common import *
+import os
 
 # デバッグモードを有効にするかどうか（本番運用では必ずFalseにする）
 DEBUG = False
