@@ -48,7 +48,7 @@ LOGGING = {
     # フォーマッタの設定
     'formatters': {
         'prod': {
-            'format': '/t'.join([
+            'format': '\t'.join([
                 '%(asctime)s',
                 '[%(levelname)s]',
                 '%(pathname)s(Line:%(lineno)d)',

@@ -28,7 +28,7 @@ LOGGING = {
     },
     'formatters': {
         'dev': {
-            'format': '/t'.join([
+            'format': '\t'.join([
                 '%(asctime)s',
                 '[%(levelname)s]',
                 '%(pathname)s(Line:%(lineno)d)',
