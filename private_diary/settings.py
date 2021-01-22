@@ -14,6 +14,8 @@ MEDIA_ROOT = '/usr/share/nginx/html/media'
 # Amazon SES関連設定
 AWS_SES_ACCESS_KEY_ID = os.environ.get('AWS_SES_ACCESS_KEY_ID')
 AWS_SES_SECRET_ACCESS_KEY = os.environ.get('AWS_SES_SECRET_ACCESS_KEY')
+AWS_SES_REGION_NAME = "us-east-2"
+AWS_SES_REGION_ENDPOINT = "email.us-east-2.amazonaws.com"
 EMAIL_BACKEND = 'django_ses.SESBackend'
 
 # ロギング
